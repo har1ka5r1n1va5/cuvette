@@ -126,7 +126,7 @@
     font-weight: 700;
     font-size: 45px;
     color: black;
-    
+
     /* margin-left: 40px; */
 }
 
@@ -224,7 +224,7 @@
 }
 
 .look-container {
-    background-image:linear-gradient(to right );
+    background-image:linear-gradient(to right,rgba(25, 0, 255, 0.822),rgb(89, 208, 255)) ;
     height: 18vh;
 }
 
@@ -238,6 +238,10 @@
 .look-button {
     height: 40px;
     margin-top: 6%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
 }
 
 .information-bar {
@@ -248,10 +252,8 @@
 }
 
 .information-symbol {
-    height: 20%;
-    width: 10%;
-    margin-left: 45%;
-    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
 }
 
 .brands-bar {
@@ -301,7 +303,16 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-}   
+}
 .another{
     border-radius: 0px;
+}
+.footer-para{
+    font-size: 12px;
+}
+.iphen{
+    color: #7b8794;
+}
+.footer{
+    font-size:large;
 }
