@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@font-face {
+    font-family: bodoni;
+    src: url("fonts/BodoniBT.ttf");
+  }
+@font-face {
+    font-family: helveticabold;
+    src: url("fonts/HelveticaNowDisplay-ExtraBold.ttf");
+  }
+@font-face {
+    font-family: merry;
+    src: url("fonts/MerryScriptmas-Regular.otf");
+  }
+@font-face {
+    font-family: stem;
+    src: url("fonts/Stem\ Extra\ Light.ttf");
+  }
+@font-face {
+    font-family: tarocco;
+    src: url("fonts/Tarocco\ OT\ W03\ Roman.ttf");
+  }
+@font-face {
+    font-family: futura;
+    src: url("fonts/Futura\ Light.otf");
+  }
+@font-face {
+    font-family: simplus;
+    src: url("fonts/simplus.ttf");
+  }
+@font-face {
+    font-family: tanseek;
+    src: url("fonts/Tanseek\ Modern\ Pro\ Arabic\ Book.ttf");
+  }
+@font-face {
+    font-family: rileno;
+    src: url("fonts/RilenoSans-Light.otf");
+  }
+
+/* #nav-item1 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#nav-item2 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#nav-item3 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+#nav-item4 {
+    font-family: "Roboto";
+    color: #323f4b;
+} */
+.navbar-nav{
+    font-family: sans-serif;
+}
+
+.food-munch-logo {
+    height: 70px;
+    width: 80px;
+
+}
+
+.bannersecion-bg-container {
+    height: 90vh;
+    background-color: black;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "helveticabold";
+    font-size: 70px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 200px;
+    float: left;
+    width: 40%;
+    line-height: 90%;
+}
+
+.banner-description {
+    color: white;
+    font-family: "tanseek";
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 200px;
+    float: left;
+    width: 70%;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #d0b200;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.order-now-button {
+    width: 130px;
+    height: 45px;
+    color: #d0b200;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d0b200;
+    border-radius: 8px;
+
+
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    font-family: "helveticabold";
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    
+    /* margin-left: 40px; */
+}
+
+.wcu-section-description {
+    font-family: "rileno";
+    font-size: 20px;
+    color: #5a7184;
+    /* margin-left: 40px; */
+}
+
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #e5eaf4;
+    /* border-radius: 16px; */
+}
+
+.wcu-card-image {
+    height: 90px;
+    width: 87px;
+}
+
+.wcu-card-title {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 22px;
+    color: #323f4b;
+    text-align: left;
+
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.offers {
+
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    font-family: "helveticabold";
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.menu-section-description {
+    color: black;
+    font-size: 24px;
+    font-family: "rileno";
+}
+
+.menu-item-image {
+    border-radius: 0px;
+    width: 290px;
+    height: 304px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.navbar-brand {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.look-container {
+    background-image:linear-gradient(to right );
+    height: 18vh;
+}
+
+.look-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 6%;
+
+}
+
+.look-button {
+    height: 40px;
+    margin-top: 6%;
+}
+
+.information-bar {
+    background-color: black;
+    height: 30vh;
+    color: white;
+    text-align: center;
+}
+
+.information-symbol {
+    height: 20%;
+    width: 10%;
+    margin-left: 45%;
+    margin-bottom: 5px;
+}
+
+.brands-bar {
+    background-color: black;
+    height: 35vh;
+    text-align: left;
+    padding: 15%;
+
+}
+
+.brands-bar-heading {
+    color: white;
+    font-family: "helveticabold";
+    font-size: 250%;
+    font-weight: 600;
+}
+
+.brands-bar-description {
+    color: white;
+    font-size: 100%;
+    font-family: "rileno";
+}
+
+.brands-bar-items {
+    color: white;
+    font-size: 120%;
+}
+.merry{
+    font-family: "merry";
+}
+.stem{
+    font-family: "stem";
+}
+.tarocco{
+    font-family: "tarocco";
+}
+.futura{
+    font-family: "futura";
+}
+.bodoni{
+    font-family: "bodoni";
+}
+.simplus{
+    font-family: "simplus";
+}
+.items-algn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}   
+.another{
+    border-radius: 0px;
+}
